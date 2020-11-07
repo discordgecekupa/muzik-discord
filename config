@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[credential]
+	helper = store
+[remote "origin"]
+	url = https://github.com/Melil0/xir-bot-project
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	email = none
+	name = Glitch (seasoned-languid-teller-deleted)
